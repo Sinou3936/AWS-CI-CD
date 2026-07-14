@@ -9,6 +9,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import lombok.Getter;
+import org.springframework.beans.factory.annotation.Value;
 
 @Configuration
 public class AppConfig {
