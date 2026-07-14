@@ -52,6 +52,9 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter-data-redis") // 추가됨
     implementation("org.springframework.session:spring-session-data-redis") // 추가됨
+
+    compileOnly("org.projectlombok:lombok")
+    annotationProcessor("org.projectlombok:lombok")
 }
 
 tasks.withType<Test> {
