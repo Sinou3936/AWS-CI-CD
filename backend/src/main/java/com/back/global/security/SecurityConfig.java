@@ -1,5 +1,6 @@
 package com.back.global.security;
 
+import com.back.global.app.AppConfig;
 import com.back.global.rsData.RsData;
 import com.back.standard.util.Ut;
 import lombok.RequiredArgsConstructor;
@@ -13,6 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.security.config.http.SessionCreationPolicy;
 
 import java.util.List;
 
